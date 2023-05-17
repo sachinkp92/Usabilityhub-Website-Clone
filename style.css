@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+    --text-color:#183b56;
+    --primary:#2294ed;
+    --primary-dark: #3898ec;
+    --grey: #577592;
+    --border-color: #333333;
+    --white:#ffffff;
+    
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+.navbar{
+    padding: 20px 0;
+
+}
+
+a.nav-link{
+    margin-right: 30px;
+    font-size: 16px;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.navbar-toggler-icon{
+    font-size: 12px;
+}
+.btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 4px;
+
+} 
+
+.btn-primary {
+    background-color: var(--primary);
+    border: none;
+    font-weight: 600;
+    
+}
+.btn-primary:focus{
+    background-color: var(--primary-dark);
+}
+
+.btn.btn-primary:hover {
+    background-color: var(--text-color);
+}
+
+.btn-outline-secondary {
+    background-color: var(--white);
+    color: var(--text-color);
+    font-weight: 600;
+    border: 1px solid var(--text-color);
+
+}
+
+.btn-outline-secondary:hover {
+    background-color: var(--white);
+    color: var(--primary);
+    border: 1px solid var(--primary);
+} 
+
+.btn-align {
+    margin-right: 16px;
+}
+.hero-img {
+    width: 100%;
+    max-width: 700px;
+}
+
+section.hero-section .text-container h1{
+    font-size: 48px;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+section.hero-section .text-container p{
+    font-size: 20px;
+    color: var(--grey);
+    margin-bottom: 20px;
+}
+
+section.logo-section .logo-text p{
+    color: var(--text-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+section.logo-section .logos img {
+    margin: 30px;
+    height: 48px;
+}
+
+section.card-section .card-desc {
+    text-align: center;
+
+}
+section.card-section .card-desc h1{
+    color: var(--text-color);
+    font-size: 24px;
+}
+
+section.card-section .main-card {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section.card-section .main-card img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 16px;
+}
+section.card-section .main-card h2{
+    color: var(--text-color);
+    font-size: 24px;
+    font-weight: 600;
+}
+section.card-section .main-card p{
+    color: var(--grey);
+    font-size: 18px;
+}
+
+section.feature-section .features img{
+    width: 100%;
+    max-width: 500px;
+}
+
+section.feature-section p{
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+section.feature-section h2{
+    color: var(--text-color);
+    font-size: 32px;
+    font-weight: 600;
+}
+
+section.feature-section h4{
+    color: var(--grey);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+section.image-section .image-text h1 {
+    color: var(--text-color);
+    font-size: 36px;
+}
+
+section.image-section .image-card {
+    background-size: cover;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+section.image-section .image-card-1{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.8)),url(./images/cover_tasks.jpg);
+}
+
+section.image-section .image-card-2{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.8)),url(./images/cover_navigate.jpg);
+
+}
+section.image-section .image-card-3{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.8)),url(./images/cover_audience.jpg);
+
+}
+section.image-section .image-card-4{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.8)),url(./images/cover_about.jpg);
+}
+
+.footer-section {
+    background-color: #ebf2fa;
+}
+
+.footer-section h4{
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 500;
+}
+.footer-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+.footer-list li{
+    color: var(--grey);
+    margin-bottom: 6px;
+}
+
+.footer-logo {
+    margin-bottom: 20px;
+}
+.sub-footer-section {
+    background-color: #b9cde4;
+}
+section.image-section .image-card p{
+    padding: 20px;
+    font-size: 20px;
+    color: var(--white);
+    font-weight: 500;
+}
+.page-container {
+    color: var(--white);
+    text-align: center;
+    background-color: #183b54;
+}
+
+.sub-footer a{
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--text-color);
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+.sub-footer-logo a img {
+    height: 16px;
+    width: 16px;
+    margin-left: 10px;
+}
+
+
+@media (max-width:767px){
+    .navbar-nav {
+        text-align: center;
+    }
+    .btn-align{
+        display: block;
+        margin-bottom: 16px;
+        margin-right: 0px;
+    }
+    section.hero-section .text-container h1{
+        font-size: 36px;
+        margin-top:40px
+    }
+    section.hero-section .text-container p{
+        font-size: 16px;
+    }
+    section.card-section .main-card h1{
+        font-size: 20px;
+    }
+    section.card-section .main-card p{
+        font-size: 14px;
+    }
+    section.feature-section .features img{
+        width: 100%;
+        max-width: 350px;
+        margin-bottom: 20px;
+    }
+    section.feature-section p {
+        font-size: 16px;
+        text-align: center;
+    }
+    section.feature-section h2{
+        font-size: 28px;
+        text-align: center;
+    }
+    section.feature-section h4 {
+        text-align: center;
+        font-size: 16px;
+    }
+    section.image-section .image-card {
+        height: 200px;
+    }
+    section.image-section .image-card p{
+        font-size: 14px;
+    }
+}
+
